@@ -1,0 +1,59 @@
+/* Base Body Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card Style */
+.card {
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+
+/* Buttons */
+.btn {
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Table Styling */
+.table-hover tbody tr:hover {
+  background-color: #eef2f7;
+  transition: background-color 0.3s ease;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+/* Form Styling */
+input.form-control, select.form-control, textarea.form-control {
+  border-radius: 8px;
+}
+
+input.form-control:focus {
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.2);
+  border-color: #80bdff;
+  outline: none;
+}
+
+/* Badge Style for Ticket Count */
+.badge {
+  font-size: 1rem;
+  padding: 0.5em 0.75em;
+  border-radius: 8px;
+}
+
+/* Container Padding */
+.container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

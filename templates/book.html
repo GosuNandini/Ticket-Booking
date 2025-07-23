@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Ticket</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow p-4">
+                    <h3 class="text-center mb-4">🎟️ Book Your Ticket</h3>
+                    <form method="POST">
+                        <div class="mb-3">
+                            <label class="form-label">Your Name</label>
+                            <input type="text" name="name" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Select City & Time</label>
+                            <select class="form-select" name="event" required>
+                                <option value="">-- Select --</option>
+                                <option value="Hyderabad - 10:00 AM">Hyderabad - 10:00 AM</option>
+                                <option value="Bangalore - 12:00 PM">Bangalore - 12:00 PM</option>
+                                <option value="Chennai - 2:00 PM">Chennai - 2:00 PM</option>
+                                <option value="Mumbai - 4:00 PM">Mumbai - 4:00 PM</option>
+                                <option value="Delhi - 6:00 PM">Delhi - 6:00 PM</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Number of Seats</label>
+                            <input type="number" name="seats" class="form-control" min="1" required>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-success">Book Now</button>
+                        </div>
+                    </form>
+
+                    <div class="mt-4 text-center">
+                        <a href="/bookings" class="btn btn-outline-primary btn-sm">View My Bookings</a>
+                        <a href="/logout" class="btn btn-outline-danger btn-sm ms-2">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Book Ticket</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="container mt-5">
+    <h2>🎟️ Book Your Ticket</h2>
+    <form method="POST">
+        <div class="mb-3">
+            <label class="form-label">Your Name</label>
+            <input type="text" name="name" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Event Name</label>
+            <input type="text" name="event" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Number of Seats</label>
+            <input type="number" name="seats" class="form-control" min="1" required>
+        </div>
+        <button type="submit" class="btn btn-success">Book Now</button>
+    </form>
+    <a href="/bookings" class="btn btn-info mt-3">View My Bookings</a>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Book Ticket</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="container mt-5">
+    <h2 class="mb-4">🎟️ Book Your Ticket</h2>
+    <form method="POST">
+        <div class="mb-3">
+            <label class="form-label">Your Name</label>
+            <input type="text" class="form-control" name="name" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Event Name</label>
+            <input type="text" class="form-control" name="event" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Number of Seats</label>
+            <input type="number" class="form-control" name="seats" min="1" required>
+        </div>
+        <button type="submit" class="btn btn-success">Book Now</button>
+    </form>
+
+    <div class="mt-4">
+        <a href="/bookings" class="btn btn-info">View My Bookings</a>
+        <a href="/logout" class="btn btn-danger">Logout</a>
+    </div>
+</body>
+</html> --> -->
